@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: brown ;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+h2{
+    text-align: center;
+}
+
+.login-box{
+    margin-top: 150px;
+    flex-basis: 600px;
+    background: white;
+    padding: 20px;
+}
+input,select{
+    width: 90%;
+    padding: 15px 20px;
+    margin: 8px 0;
+    border: 1px solid lightgray;
+}
+input[type="submit"]{
+background: rgb(154, 27, 2);
+border: none;
+color: white;
+text-decoration: none;
+width: 40%;
+cursor: pointer;
+}
+.tombol{
+    display: inline-block;
+    width: 30px;
+    padding: 15px 30px;
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    text-align: center;
+    cursor: pointer;
+}
+.tombol.daftar{
+    background: rgb(111, 20, 8);
+    text-decoration: none;
+    width: 30%;
+    cursor: pointer;
+    border: none;
+}
+
+/* css admin.php */
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+.left {
+    left: 0;
+    background: rgb(63, 23, 23);
+}
+.right{
+    right: 0;
+    background: #773737;
+}
+.centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+

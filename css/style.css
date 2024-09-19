@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background: brown;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+h2{
+    text-align: center;
+}
+.login-box{
+    margin-top: 150px;
+    flex-basis: 600px;
+    background: white;
+    padding: 20px;
+}
+input,select{
+    width: 90%;
+    padding: 15px 20px;
+    margin: 8px 0;
+    border: 1px solid lightgray;
+}
+input[type="submit"]{
+background: greenyellow;
+border: none;
+color: white;
+text-decoration: none;
+width: 0%;
+cursor: pointer;
+}
+.tombol{
+    display: inline-block;
+    width: 30px;
+    padding: 15px 30px;
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    text-align: center;
+    cursor: pointer;
+}
+.tombol.daftar{
+    background: orange;
+    
+}*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background: rgb(56, 56, 56);
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+h2{
+    text-align: center;
+}
+.login-box{
+    margin-top: 150px;
+    flex-basis: 600px;
+    background: white;
+    padding: 20px;
+}
+input,select{
+    width: 90%;
+    padding: 15px 20px;
+    margin: 8px 0;
+    border: 1px solid lightgray;
+}
+input[type="submit"]{
+background: greenyellow;
+border: none;
+color: white;
+text-decoration: none;
+width: 0%;
+cursor: pointer;
+}
+.tombol{
+    display: inline-block;
+    width: 30px;
+    padding: 15px 30px;
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    text-align: center;
+    cursor: pointer;
+}
+.tombol.daftar{
+    background: orange;
+    
+}
